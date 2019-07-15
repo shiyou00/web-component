@@ -1,0 +1,16 @@
+dist
+node_modules
+.coverage
+.vscode
+.idea
+.DS_Store
+.schema
+*.log
+report.*.json
+
+/bricks/*/deploy/*
+!/bricks/*/deploy/package.conf.yaml
+/bricks/*/.pkgbuild/
+/micro-apps/*/deploy/
+/micro-apps/*/.pkgbuild/
+
